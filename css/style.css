@@ -1,3 +1,11 @@
+/* CSS HEX */
+/* --burnt-sienna: #e9703dff;
+--rich-black: #0c1c23ff;
+--eerie-black: #252827ff;
+--black-olive: #3c3d3aff;
+--dark-slate-gray: #175655ff; */
+
+
 body {
     display: grid;
     grid-template-columns: 25px auto 25px;
@@ -8,21 +16,24 @@ body {
 
 .whole-card {
     display: grid;
-    /* grid-template-columns: 35% 35%; */
+    grid-template-columns: 25px auto 25px;
+    grid-template-rows: 1fr 1fr 25px;
     grid-column: 2 / 3;
     grid-row: 2;
-    margin: 0;
-    padding: 0;
-    border: 2px solid black;
+    background-color: #3c3d3aff;
 }
 
-
-.profile-pic {
-
-
+.logo-pic {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: #3c3d3aff;
 }
 
 
 .info-block {
-    
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    align-items: center;
+    text-align: center;
 }
