@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-columns: 25px auto 25px;
+    grid-template-rows: 25px auto 35%;
+}
+
+
+
+.whole-card {
+    display: grid;
+    /* grid-template-columns: 35% 35%; */
+    grid-column: 2 / 3;
+    grid-row: 2;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+
+
+.profile-pic {
+
+
+}
