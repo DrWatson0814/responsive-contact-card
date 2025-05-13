@@ -2,8 +2,8 @@
 /* --burnt-sienna: #e9703dff;
 --rich-black: #0c1c23ff;
 --eerie-black: #252827ff;
---black-olive: #3c3d3aff;
---dark-slate-gray: #175655ff; */
+--black-olive: #3c3d3a;
+--dark-slate-gray: (#175655ff); */
 
 
 body {
@@ -20,7 +20,11 @@ body {
     grid-template-rows: 1fr 1fr 25px;
     grid-column: 2 / 3;
     grid-row: 2;
-    background-color: #3c3d3aff;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: #646881ff;
+    font-size: large;
+    color: whitesmoke;
 }
 
 .logo-pic {
@@ -37,3 +41,8 @@ body {
     align-items: center;
     text-align: center;
 }
+
+h2 {
+    font: small-caps 500 24px /2 monospace;
+}
+
