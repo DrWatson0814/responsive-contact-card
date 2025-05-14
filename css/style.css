@@ -8,7 +8,7 @@
 
 body {
     display: grid;
-    min-width: 100%;
+    /* min-width: 100%; */
     max-height: 625px;
     grid-template-columns: 25px auto 25px;
     grid-template-rows: 25px auto 35%;
@@ -32,7 +32,6 @@ body {
 .logo-pic {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    margin-top: 50px;
     margin-bottom: -100px;
     background-color: #3c3d3aff;
 }
@@ -62,7 +61,7 @@ h2 {
     font: small-caps 500 24px monospace;
 }
 
-@media  (min-width: 500px) {
+@media  (min-width: 768px) {
 
     body {
         align-items: start;
@@ -85,7 +84,7 @@ h2 {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1023px) {
     body {
         display: grid;
         grid-template-columns: ;
