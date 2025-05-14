@@ -22,7 +22,6 @@ body {
     grid-template-rows: 1fr 1fr 25px;
     grid-column: 2 / 3;
     grid-row: 2;
-    /* min-width: 100%; */
     border: 3px solid black;
     border-radius: 25px;
     background-color: #646881ff;
@@ -47,8 +46,7 @@ body {
     row-gap: 25px;
     text-align: center;
     margin: 25px;
-    /* margin-bottom:; */
-    /* padding-bottom: 50px; */
+  
 }
 
 
@@ -91,18 +89,29 @@ h2 {
     body {
         display: grid;
         grid-template-columns: ;
-        grid-template-rows: 25px 625px;
+        grid-template-rows: 625px;
     }
 
     .whole-card {
         display: grid;
+        grid-template-columns: 50%;
         grid-row: 1 / 2;
         max-height: 625px;
     }
 
     .info-block {
-        display: flex;
+        display: grid;
         flex-direction: column;
         justify-content: space-between;
+    }
+    
+    .logo-pic {
+        grid-column: 1 / 2;
+        grid-: ;
+    }
+
+    .info-block {
+        grid-area: "info";
+        grid-row: 1 / 3 ;
     }
 }
